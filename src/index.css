@@ -17,10 +17,21 @@ body {
 
 .app {
   width: 100%;
-  max-width: 390px;
   min-height: 100vh;
   margin: 0 auto;
   position: relative;
+}
+
+@media (min-width: 768px) {
+  .app {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .app {
+    max-width: 100%;
+  }
 }
 
 .screen {
@@ -46,9 +57,22 @@ body {
 
 .screen-1-content {
   width: 100%;
+  max-width: 390px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media (min-width: 768px) {
+  .screen-1-content {
+    max-width: 600px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .screen-1-content {
+    max-width: 700px;
+  }
 }
 
 .icon-container {
@@ -63,12 +87,38 @@ body {
   filter: drop-shadow(0 2px 8px rgba(201, 163, 106, 0.3));
 }
 
+@media (min-width: 768px) {
+  .mystical-icon {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mystical-icon {
+    width: 320px;
+    height: 320px;
+  }
+}
+
 .main-title {
   font-size: 32px;
   font-weight: 600;
   color: #F9F0DF;
   margin-bottom: 8px;
   letter-spacing: 2px;
+}
+
+@media (min-width: 768px) {
+  .main-title {
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-title {
+    font-size: 42px;
+  }
 }
 
 .subtitle {
@@ -78,11 +128,29 @@ body {
   letter-spacing: 1px;
 }
 
+@media (min-width: 768px) {
+  .subtitle {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .subtitle {
+    font-size: 18px;
+  }
+}
+
 .personal-form {
   width: 100%;
   display: flex;
   flex-direction: column;
   gap: 24px;
+}
+
+@media (min-width: 1024px) {
+  .personal-form {
+    gap: 28px;
+  }
 }
 
 .form-group {
@@ -209,6 +277,20 @@ body {
   height: 200px;
 }
 
+@media (min-width: 768px) {
+  .orbit-animation {
+    width: 280px;
+    height: 280px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .orbit-animation {
+    width: 350px;
+    height: 350px;
+  }
+}
+
 .orbit {
   position: absolute;
   top: 50%;
@@ -224,16 +306,58 @@ body {
   animation: rotate 1.8s linear infinite;
 }
 
+@media (min-width: 768px) {
+  .orbit-1 {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .orbit-1 {
+    width: 315px;
+    height: 315px;
+  }
+}
+
 .orbit-2 {
   width: 130px;
   height: 130px;
   animation: rotate 1.3s linear infinite reverse;
 }
 
+@media (min-width: 768px) {
+  .orbit-2 {
+    width: 180px;
+    height: 180px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .orbit-2 {
+    width: 230px;
+    height: 230px;
+  }
+}
+
 .orbit-3 {
   width: 80px;
   height: 80px;
   animation: rotate 1s linear infinite;
+}
+
+@media (min-width: 768px) {
+  .orbit-3 {
+    width: 110px;
+    height: 110px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .orbit-3 {
+    width: 140px;
+    height: 140px;
+  }
 }
 
 @keyframes rotate {
@@ -310,11 +434,37 @@ body {
   letter-spacing: 2px;
 }
 
+@media (min-width: 768px) {
+  .loading-text h2 {
+    font-size: 34px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .loading-text h2 {
+    font-size: 38px;
+  }
+}
+
 .loading-text p {
   font-size: 13px;
   color: #C9A36A;
   line-height: 1.6;
   max-width: 280px;
+}
+
+@media (min-width: 768px) {
+  .loading-text p {
+    font-size: 15px;
+    max-width: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .loading-text p {
+    font-size: 16px;
+    max-width: 500px;
+  }
 }
 
 /* Screen 3 */
@@ -349,12 +499,27 @@ body {
   position: relative;
   z-index: 2;
   width: 100%;
+  max-width: 390px;
   padding: 30px 24px 24px;
   background: rgba(0, 0, 0, 0.75);
   backdrop-filter: blur(20px);
   border-radius: 24px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   margin-bottom: 40px;
+}
+
+@media (min-width: 768px) {
+  .result-content {
+    max-width: 600px;
+    padding: 40px 32px 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .result-content {
+    max-width: 700px;
+    padding: 50px 40px 40px;
+  }
 }
 
 .result-title {
@@ -365,11 +530,35 @@ body {
   letter-spacing: 1px;
 }
 
+@media (min-width: 768px) {
+  .result-title {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .result-title {
+    font-size: 34px;
+  }
+}
+
 .result-subtitle {
   font-size: 13px;
   color: rgba(249, 240, 223, 0.8);
   margin-bottom: 20px;
   line-height: 1.6;
+}
+
+@media (min-width: 768px) {
+  .result-subtitle {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .result-subtitle {
+    font-size: 16px;
+  }
 }
 
 .result-benefits {
@@ -381,6 +570,18 @@ body {
   color: #F9F0DF;
   line-height: 1.8;
   margin-bottom: 4px;
+}
+
+@media (min-width: 768px) {
+  .result-benefits p {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .result-benefits p {
+    font-size: 16px;
+  }
 }
 
 .result-benefits p:first-child {
@@ -425,6 +626,18 @@ body {
   min-height: 100vh;
 }
 
+@media (min-width: 768px) {
+  .screen-4 {
+    padding: 30px 40px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .screen-4 {
+    padding: 40px 60px;
+  }
+}
+
 .rooms-title {
   font-size: 20px;
   color: #F9F0DF;
@@ -434,10 +647,43 @@ body {
   letter-spacing: 1px;
 }
 
+@media (min-width: 768px) {
+  .rooms-title {
+    font-size: 26px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .rooms-title {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+}
+
 .rooms-list {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  max-width: 390px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .rooms-list {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .rooms-list {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    max-width: 1400px;
+  }
 }
 
 .room-card {
@@ -446,6 +692,14 @@ body {
   overflow: hidden;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
   transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .room-card {
+    border-radius: 16px;
+  }
 }
 
 .room-card:hover {
@@ -460,6 +714,18 @@ body {
   background: #3A2F25;
 }
 
+@media (min-width: 768px) {
+  .room-image {
+    height: 220px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .room-image {
+    height: 250px;
+  }
+}
+
 .room-photo {
   width: 100%;
   height: 100%;
@@ -470,6 +736,21 @@ body {
 
 .room-info {
   padding: 16px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .room-info {
+    padding: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .room-info {
+    padding: 24px;
+  }
 }
 
 .room-header {
@@ -497,13 +778,27 @@ body {
   color: #5A4A3A;
   line-height: 1.5;
   margin-bottom: 12px;
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .room-description {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .room-description {
+    font-size: 15px;
+  }
 }
 
 .room-footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 12px;
+  margin-top: auto;
+  padding-top: 12px;
 }
 
 .element-badge {
