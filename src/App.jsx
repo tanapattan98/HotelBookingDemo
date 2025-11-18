@@ -203,7 +203,7 @@ function Screen4() {
               <p className="room-description">{room.description}</p>
               <div className="room-footer">
                 <div className="element-badge">土</div>
-                <button className="book-button">抢</button>
+                <button className="book-button">预定</button>
               </div>
             </div>
           </div>
