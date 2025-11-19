@@ -11,6 +11,16 @@ body {
   overflow-x: hidden;
 }
 
+/* Chinese Brush Calligraphy Font */
+.chinese-calligraphy {
+  font-family: 'Ma Shan Zheng', 'KaiTi', '楷体', serif;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
 #root {
   min-height: 100vh;
 }
@@ -102,41 +112,54 @@ body {
 }
 
 .main-title {
+  font-family: 'Ma Shan Zheng', 'KaiTi', '楷体', serif;
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 400;
   color: #F9F0DF;
   margin-bottom: 8px;
-  letter-spacing: 2px;
+  letter-spacing: 0.12em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 @media (min-width: 768px) {
   .main-title {
     font-size: 38px;
+    letter-spacing: 0.14em;
   }
 }
 
 @media (min-width: 1024px) {
   .main-title {
     font-size: 42px;
+    letter-spacing: 0.15em;
   }
 }
 
 .subtitle {
+  font-family: 'Ma Shan Zheng', 'KaiTi', '楷体', serif;
   font-size: 14px;
+  font-weight: 400;
   color: #C9A36A;
   margin-bottom: 30px;
-  letter-spacing: 1px;
+  letter-spacing: 0.08em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 @media (min-width: 768px) {
   .subtitle {
     font-size: 16px;
+    letter-spacing: 0.1em;
   }
 }
 
 @media (min-width: 1024px) {
   .subtitle {
     font-size: 18px;
+    letter-spacing: 0.12em;
   }
 }
 
@@ -160,9 +183,14 @@ body {
 }
 
 .form-group label {
+  font-family: 'Ma Shan Zheng', 'KaiTi', '楷体', serif;
   font-size: 14px;
   color: #F9F0DF;
-  font-weight: 500;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .form-group input {
@@ -198,6 +226,7 @@ body {
 }
 
 .gender-btn {
+  font-family: 'Ma Shan Zheng', 'KaiTi', '楷体', serif;
   flex: 1;
   padding: 14px;
   background: transparent;
@@ -207,10 +236,14 @@ body {
   font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease;
-  font-weight: 500;
+  font-weight: 400;
   box-sizing: border-box;
   -webkit-appearance: none;
   appearance: none;
+  letter-spacing: 0.08em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .gender-btn.active {
@@ -224,6 +257,7 @@ body {
 }
 
 .cta-button {
+  font-family: 'Ma Shan Zheng', 'KaiTi', '楷体', serif;
   width: 100%;
   padding: 16px;
   margin-top: 20px;
@@ -232,11 +266,14 @@ body {
   border-radius: 14px;
   color: #7D5B3E;
   font-size: 17px;
-  font-weight: 600;
+  font-weight: 400;
   cursor: pointer;
   box-shadow: 0 4px 16px rgba(201, 163, 106, 0.3);
   transition: all 0.3s ease;
-  letter-spacing: 1px;
+  letter-spacing: 0.08em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .cta-button:hover {
@@ -249,11 +286,17 @@ body {
 }
 
 .footer-text {
+  font-family: 'Ma Shan Zheng', 'KaiTi', '楷体', serif;
   margin-top: 24px;
   font-size: 12px;
+  font-weight: 400;
   color: rgba(249, 240, 223, 0.5);
   text-align: center;
   line-height: 1.5;
+  letter-spacing: 0.05em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 /* Screen 2 */
@@ -435,35 +478,48 @@ body {
 }
 
 .loading-text h2 {
+  font-family: 'Ma Shan Zheng', 'KaiTi', '楷体', serif;
   font-size: 28px;
   color: #F9F0DF;
-  font-weight: 600;
-  letter-spacing: 2px;
+  font-weight: 400;
+  letter-spacing: 0.12em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 @media (min-width: 768px) {
   .loading-text h2 {
     font-size: 34px;
+    letter-spacing: 0.14em;
   }
 }
 
 @media (min-width: 1024px) {
   .loading-text h2 {
     font-size: 38px;
+    letter-spacing: 0.15em;
   }
 }
 
 .loading-text p {
+  font-family: 'Ma Shan Zheng', 'KaiTi', '楷体', serif;
   font-size: 13px;
+  font-weight: 400;
   color: #C9A36A;
   line-height: 1.6;
   max-width: 280px;
+  letter-spacing: 0.05em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 @media (min-width: 768px) {
   .loading-text p {
     font-size: 15px;
     max-width: 400px;
+    letter-spacing: 0.06em;
   }
 }
 
@@ -471,6 +527,7 @@ body {
   .loading-text p {
     font-size: 16px;
     max-width: 500px;
+    letter-spacing: 0.08em;
   }
 }
 
@@ -530,41 +587,55 @@ body {
 }
 
 .result-title {
+  font-family: 'Ma Shan Zheng', 'KaiTi', '楷体', serif;
   font-size: 24px;
   color: #F9F0DF;
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 12px;
-  letter-spacing: 1px;
+  letter-spacing: 0.1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 @media (min-width: 768px) {
   .result-title {
     font-size: 30px;
+    letter-spacing: 0.12em;
   }
 }
 
 @media (min-width: 1024px) {
   .result-title {
     font-size: 34px;
+    letter-spacing: 0.14em;
   }
 }
 
 .result-subtitle {
+  font-family: 'Ma Shan Zheng', 'KaiTi', '楷体', serif;
   font-size: 13px;
+  font-weight: 400;
   color: rgba(249, 240, 223, 0.8);
   margin-bottom: 20px;
   line-height: 1.6;
+  letter-spacing: 0.05em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 @media (min-width: 768px) {
   .result-subtitle {
     font-size: 15px;
+    letter-spacing: 0.06em;
   }
 }
 
 @media (min-width: 1024px) {
   .result-subtitle {
     font-size: 16px;
+    letter-spacing: 0.08em;
   }
 }
 
@@ -573,30 +644,39 @@ body {
 }
 
 .result-benefits p {
+  font-family: 'Ma Shan Zheng', 'KaiTi', '楷体', serif;
   font-size: 13px;
+  font-weight: 400;
   color: #F9F0DF;
   line-height: 1.8;
   margin-bottom: 4px;
+  letter-spacing: 0.05em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 @media (min-width: 768px) {
   .result-benefits p {
     font-size: 15px;
+    letter-spacing: 0.06em;
   }
 }
 
 @media (min-width: 1024px) {
   .result-benefits p {
     font-size: 16px;
+    letter-spacing: 0.08em;
   }
 }
 
 .result-benefits p:first-child {
-  font-weight: 600;
+  font-weight: 400;
   margin-bottom: 8px;
 }
 
 .reveal-button {
+  font-family: 'Ma Shan Zheng', 'KaiTi', '楷体', serif;
   width: 100%;
   padding: 15px;
   background: #F9F0DF;
@@ -604,11 +684,14 @@ body {
   border-radius: 50px;
   color: #2A1A0A;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   cursor: pointer;
   box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.08em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .reveal-button:hover {
@@ -646,18 +729,23 @@ body {
 }
 
 .rooms-title {
+  font-family: 'Ma Shan Zheng', 'KaiTi', '楷体', serif;
   font-size: 20px;
   color: #F9F0DF;
   text-align: center;
   margin-bottom: 24px;
-  font-weight: 600;
-  letter-spacing: 1px;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 @media (min-width: 768px) {
   .rooms-title {
     font-size: 26px;
     margin-bottom: 32px;
+    letter-spacing: 0.12em;
   }
 }
 
@@ -665,6 +753,7 @@ body {
   .rooms-title {
     font-size: 30px;
     margin-bottom: 40px;
+    letter-spacing: 0.14em;
   }
 }
 
@@ -768,35 +857,52 @@ body {
 }
 
 .room-name {
+  font-family: 'Ma Shan Zheng', 'KaiTi', '楷体', serif;
   font-size: 20px;
   color: #2A1A0A;
-  font-weight: 600;
-  letter-spacing: 0.5px;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .room-price-large {
+  font-family: 'Ma Shan Zheng', 'KaiTi', '楷体', serif;
   font-size: 28px;
   color: #7D5B3E;
-  font-weight: 700;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .room-description {
+  font-family: 'Ma Shan Zheng', 'KaiTi', '楷体', serif;
   font-size: 13px;
+  font-weight: 400;
   color: #5A4A3A;
   line-height: 1.5;
   margin-bottom: 12px;
   flex: 1;
+  letter-spacing: 0.05em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 @media (min-width: 768px) {
   .room-description {
     font-size: 14px;
+    letter-spacing: 0.06em;
   }
 }
 
 @media (min-width: 1024px) {
   .room-description {
     font-size: 15px;
+    letter-spacing: 0.08em;
   }
 }
 
@@ -809,6 +915,7 @@ body {
 }
 
 .element-badge {
+  font-family: 'Ma Shan Zheng', 'KaiTi', '楷体', serif;
   width: 32px;
   height: 32px;
   background: #C9A36A;
@@ -818,20 +925,28 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 400;
   box-shadow: 0 2px 6px rgba(201, 163, 106, 0.3);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .book-button {
+  font-family: 'Ma Shan Zheng', 'KaiTi', '楷体', serif;
   padding: 8px 24px;
   background: #2A1A0A;
   color: #F9F0DF;
   border: none;
   border-radius: 6px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   cursor: pointer;
   transition: all 0.3s ease;
+  letter-spacing: 0.08em;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .book-button:hover {
